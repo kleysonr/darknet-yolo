@@ -1,0 +1,5 @@
+version: '3'
+services:
+  darknet-yolo:
+    build: .
+    image: darknet-yolo
