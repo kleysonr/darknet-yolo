@@ -112,7 +112,7 @@ $ python prepare_dataset.py -d ../dataset/<ds_name> -l classes.txt -y tiny
 ---
 
 ```
-$ cd yolov4
+$ cd darknet-yolo
 $ docker run --rm -v `pwd`/yolo:/yolo -p 8090:8090 --runtime=nvidia -e NVIDIA_VISIBLE_DEVICES=all -it darknet-yolo bash
 $ cd /yolo
 ```
