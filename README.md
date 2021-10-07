@@ -96,6 +96,7 @@ Executar o script abaixo para gerar os arquivos de configuração necessários p
 
 ```
 $ cd yolo/scripts
+$ mkdir ../data
 ```
 Para Yolo `full`:
 ```
